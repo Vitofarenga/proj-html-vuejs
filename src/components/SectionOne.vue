@@ -37,7 +37,7 @@ h2{
     flex-direction: column;
 }
 #buttonscontainer{
-  margin-top:1rem;
+  margin-top:2.3rem;
 }
 #greybutton{
 color: white;
