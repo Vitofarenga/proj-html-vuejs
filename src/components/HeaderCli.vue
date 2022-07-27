@@ -6,7 +6,7 @@
         </div>
         <ul id="list">
             <li v-for="element in elements" :key="element.element">
-              {{element.element}}
+              <a :href="element.url">{{element.element}}</a>
             </li>
         </ul>
     </div>
@@ -23,7 +23,8 @@ export default {
        {element: 'SERVICES' },
        {element: 'WORK'},
        {element: 'ARTICLES' },
-       {element: 'GET QUOTE'},
+       {element: 'GET QUOTE',
+       url: '#'},
     ]
   }
 }
@@ -35,7 +36,7 @@ export default {
 #container{
     height: 7rem;
     width: 100%;
-    background-color: black;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     
@@ -57,10 +58,17 @@ ul{
     
 }
 li{
-    color:aliceblue;
+    
     margin-left: 2rem;
     display: flex;
     height: 100%;
     align-items: center;
+    font-size: .8rem;
+    color: rgba(188,188,188,255);
 }
+a{
+    text-decoration: none;
+}
+
+
 </style>
