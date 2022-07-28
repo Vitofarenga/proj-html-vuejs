@@ -28,6 +28,9 @@ div{
     background-image: url('../assets/home-parallax-144609983.jpg');
     background-size: cover;
 }
+img{
+  border-radius: 50%;
+}
 #spacer{
   height: .15rem;
   background-color: rgba(254,210,63,255);

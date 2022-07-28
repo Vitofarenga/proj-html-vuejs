@@ -78,7 +78,6 @@ h2{
   width: 100%;
   height: 20rem;
   margin-top: 3rem;
-  background-color:red;
   align-items: center;
   padding-left:2rem;
 }
@@ -97,7 +96,7 @@ p{
   justify-items: center;
   align-items: center;
   margin-left:2rem;
-  
+  background-color: rgba(240,237,230,255);
 }
 .circle{
   border: .1rem solid grey;

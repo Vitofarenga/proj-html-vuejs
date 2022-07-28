@@ -22,7 +22,8 @@ export default {
 #container{
     width:100%;
     height: 25rem;
-    background-color: grey;
+    background-image: url('..//assets/about-call-to-action-57862405.jpg');
+    background-size:contain;
     display: flex;
     justify-content: center;
     align-items: center;

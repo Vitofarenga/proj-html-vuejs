@@ -1,7 +1,7 @@
 <template>
   <div id="cont">
     <div class="info" v-for="info in infos" :key="info.image">
-      <span>{{info.image}}</span>
+      
       <span class="number">{{info.number}}</span>
       <p>{{info.topic}}</p>
     </div>
@@ -13,16 +13,16 @@ export default {
     data: function(){
     return{
     infos : [
-       {image: 'HOME',
+       {image: '',
        number:'3534',
        topic:'PLANNING APPLCATION' },
-       {image: 'HOME',
+       {image: '',
        number:'896',
        topic:'COMPLETED PROJECTS' },
-       {image: 'HOME',
+       {image: '',
        number:'172',
        topic:'TRAINED PROFESSIONALS' },
-       {image: 'HOME',
+       {image: '',
        number:'19',
        topic:'INTERNATIONAL OFFICES' },
     ],
@@ -35,6 +35,7 @@ export default {
 .number{
   font-size: 3rem;
 }
+
 #cont{
     width: 100%;
     height: 40rem;

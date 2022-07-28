@@ -7,9 +7,8 @@
      <SectionFive />
      <SectionSix />
      <SectionSeven />
-     <SectionEight />
-     <SectionNine />
-     <SectionTen />
+    
+    
   </main>
 </template>
 
@@ -21,9 +20,8 @@ import SectionFour from './/SectionFour.vue';
 import SectionFive from './/SectionFive.vue';
 import SectionSix from './/SectionSix.vue';
 import SectionSeven from './/SectionSeven.vue';
-import SectionEight from './/SectionEight.vue';
-import SectionNine from './/SectionNine.vue';
-import SectionTen from './/SectionTen.vue';
+
+
 export default {
  components: {
    SectionOne,
@@ -33,9 +31,8 @@ export default {
    SectionFive,
    SectionSix,
    SectionSeven,
-   SectionEight,
-   SectionNine,
-   SectionTen,
+   
+   
   }
 }
 </script>
