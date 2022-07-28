@@ -46,6 +46,11 @@ color: white;
   padding: .5rem 2rem .5rem 2rem;
   top: 5.5rem;
 }
+#greybutton:hover{
+  background-color: rgba(254,210,63,255);
+  border-color: rgba(254,210,63,255);
+  color:rgba(49,49,47,255) ;
+}
 #yellowbutton{
   border-color: rgba(254,210,63,255);
   color: white;
@@ -53,6 +58,10 @@ color: white;
   padding: .5rem 2rem .5rem 2rem;
   top: 5.5rem;
   margin-left: .5rem;
+}
+#yellowbutton:hover{
+  background-color: rgba(49,49,47,255);
+  border-color: rgba(49,49,47,255);
 }
 #littleyellow{
     height: 7rem;
